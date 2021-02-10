@@ -1,0 +1,54 @@
+/* MAIN CONTENT */ 
+body, html{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    
+}
+
+
+.center{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/*      NAVBAR       */
+.nav-custom-bg{
+    background-color:#A3430F;
+}
+
+
+#nav-element{
+    width:100%;
+    position:fixed;
+}
+
+
+
+
+/*      INDEX / HOME PAGE CONTENT SPECIFIC      */
+.content{
+    height:100%;
+    width:100%;
+    /*background-image: url('/resources/green-5376289.jpg');*/
+    background-image: url('/resources/leaves-5839550.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+
+.img-source{
+    width:100%;
+    /*padding: 1% 2%;*/
+    background-color:gray;
+    flex-direction:row;
+    align-self:flex-end;
+    justify-self: right;
+}
+
