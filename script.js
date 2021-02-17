@@ -4,17 +4,17 @@
 this.window.addEventListener("DOMContentLoaded", function(){
     // Function that makes the navbar active work for each page
     var temp = window.location.pathname;
-    var end = temp.indexOf(".");
-    var found_class = temp.slice(1,end);
+    temp = temp.split('/').pop();
+    temp = temp.split(".");
+    var class_to_add = temp[0];
     
-    if(found_class == "index"){
+    if(class_to_add== "index"){
         // index page is the special case as the class is actually "home"
-        found_class = "home";
+        class_to_add = "home";
     }
     
-    
-    this.document.getElementsByClassName(found_class)[0].classList.add("active");
-    this.document.getElementsByClassName(found_class)[1].classList.add("active");
+    this.document.getElementsByClassName(class_to_add)[0].classList.add("active");
+    this.document.getElementsByClassName(class_to_add)[1].classList.add("active");
     return;
 });
 
