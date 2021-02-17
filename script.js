@@ -44,7 +44,11 @@ function create_nav_items(navbar_elem){
     navbar_elem.appendChild(nav_container);
     
     var tabs = ["Home", "About", "Skills", "Contact"];
-    var tabLinkContent = ["/index.html", "/about.html", "/skills.html", "/contact.html"];
+    var url=window.location.pathname;
+    var path = url.split("/");
+    path.pop();
+    url = path.join("/");
+    var tabLinkContent = [url+"/index.html", url+"/about.html", url+"/skills.html", url+"/contact.html"];
     for(var i=0; i<tabs.length; i++){
         // create each tab element which is a list item
         var tab = this.document.createElement("li");
