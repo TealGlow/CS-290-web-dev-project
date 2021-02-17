@@ -13,13 +13,64 @@
     </head>
     <body>
         <!-- Boostrap Nav bar-->
+        <!-- based on the code in the examples.  navbar is injected into this span through DOM manipulation.-->
         <span id="nav-element"></span>
         <!-- end of nav bar--> 
         <section class="content center">
+            <h1 class="display-1">Alyssa Comstock</h1>
+            <p>Portland, Oregon based programmer.</p>
+            <br/>
+            
+            <div class="carousel-and-download center">
+            <!-- Bootstrap Carousel -->
+                <div id="picture-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <!-- create the indicators-->
+                        <li data-target="#picture-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#picture-carousel" data-slide-to="1"></li>
+                        <li data-target="#picture-carousel" data-slide-to="2"></li>
+                        <li data-target="#picture-carousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                    <!-- each item-->
+                        <div class="carousel-item active">
+                            <!-- item 0 -->
+                            <img class="d-block w-100" src="resources/alyssa2.jpg" >
+                        </div>
+                        <div class="carousel-item">
+                            <!-- item 1 -->
+                            <img class="d-block w-100" src="resources/alyssa1.jpg" >
+                        </div>
+                        <div class="carousel-item">
+                            <!-- item 2 -->
+                            <img class="d-block w-100" src="resources/alfred1.jpg" >
+                        </div>
+                        <div class="carousel-item">
+                            <!-- item 2 -->
+                            <img class="d-block w-100" src="resources/jackie1.jpg" >
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#picture-carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#picture-carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                
+                
+                
+            </div>
+            <!-- Button with download link to resume -->
+                
+                <button type="button" class="btn btn-outline-light custom-btn">Resume</button>
             
             
-            
-            <span class="img-source center">Image by <a href="https://pixabay.com/users/josherls-19471160/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5839550">Olga Krikliva</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5839550">Pixabay</a></span>
+            <footer class="img-source center">
+                Image by <a href="https://pixabay.com/users/thomas-suisse-1527813/">Thomas-Suisse</a> from <a href="https://pixabay.com/illustrations/line-geometric-blue-object-tinker-1174788/">Pixabay</a>
+            </footer>
         </section>
         
         

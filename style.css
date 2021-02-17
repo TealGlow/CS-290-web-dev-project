@@ -8,6 +8,37 @@ body, html{
 }
 
 
+/*   HTML ELEMENTS  */
+/*  
+
+TODO: CHANGE THE COLOR OF THE LINKS DON'T LEAVE THEM RED I STG!!!!
+
+*/
+a{
+    color:red;
+}
+a:link{
+    color:red;
+}
+
+a:visisted{
+    color:red;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:red;
+}
+
+h1{
+    color:white;
+}
+
+
+
 .center{
     display:flex;
     align-items: center;
@@ -31,25 +62,71 @@ body, html{
 
 
 
+
+
+
 /*      INDEX / HOME PAGE CONTENT SPECIFIC      */
 .content{
     height:100%;
     width:100%;
     /*background-image: url('/resources/green-5376289.jpg');*/
-    background-image: url('resources/leaves-5839550.jpg');
+    /*background-image: url('resources/leaves-5839550.jpg');*/
+    background-image: url('resources/line-1174788.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
+    display: flex;
+    flex-direction: column;
+    
 }
+
+.content p{
+    color:white;
+}
+
+.content h1{
+    font-size:9em;
+}
+
+
+.carousel-and-download{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+}
+
+#picture-carousel{
+    width:25em;
+    justify-self: flex-start;
+}
+
 
 
 
 .img-source{
     width:100%;
-    /*padding: 1% 2%;*/
-    background-color:gray;
-    flex-direction:row;
-    align-self:flex-end;
-    justify-self: right;
+    background: rgba(0,0,0, .4);
+    color:#d3d3d3;
+    bottom:0;
+    padding: .2em;
+    position:fixed;
 }
 
+
+.img-source a{
+    color:#A3430F;
+    padding: 0em .3em;
+}
+
+.img-source a:hover{
+    color:#A3430F;
+    text-decoration: none;
+}
+
+.custom-btn{
+    font-size:10em;
+    width:10em;
+    height:3em;
+    padding: 20% 25%;
+    margin: 3%;
+}
