@@ -46,6 +46,15 @@ body p{
 }
 
 
+body ::-webkit-scrollbar{
+    width:10px;
+}
+
+
+body ::-webkit-scrollbar-thumb{
+    background-color:#b3338d;
+}
+
 
 /* reusable classes */
 .center{
@@ -151,13 +160,3 @@ body p{
     background: rgba(0,0,0, .5);
 }
 
-
-/*      about page scrollbar styling        */
-.about-text::-webkit-scrollbar{
-    width:10px;
-}
-
-
-.about-text::-webkit-scrollbar-thumb{
-    background-color:#b3338d;
-}
