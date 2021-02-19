@@ -154,9 +154,9 @@ body ::-webkit-scrollbar-thumb{
 .about-text{
     color:white;
     padding:2rem;
-    height:500px;
+    height:250px;
     width:500px;
     overflow-y:auto;
-    background: rgba(0,0,0, .5);
+    background: rgba(0,0,0, .6);
 }
 
