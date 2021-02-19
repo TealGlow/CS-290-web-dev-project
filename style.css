@@ -4,41 +4,49 @@ body, html{
     width:100%;
     margin:0;
     padding:0;
+    font-family: 'Open Sans', sans-serif;
     
 }
 
 
 /*   HTML ELEMENTS  */
-/*  
-
-TODO: CHANGE THE COLOR OF THE LINKS DON'T LEAVE THEM RED I STG!!!!
-
-*/
 a{
-    color:red;
+    color:#b3338d;
 }
+
+
 a:link{
-    color:red;
+    color:#b3338d;
 }
+
 
 a:visisted{
-    color:red;
+    color:#b3338d;
 }
+
 
 a:hover{
-    color:red;
+    color:#b3338d;
 }
+
 
 a:active{
-    color:red;
+    color:#b3338d;
 }
 
-h1{
+
+p{
     color:white;
 }
 
 
+h1{
+    color:white;
+    font-family: 'Anton', sans-serif;
+}
 
+
+/* reusable classes */
 .center{
     display:flex;
     align-items: center;
@@ -47,10 +55,16 @@ h1{
 
 
 
+.shadow{
+    text-shadow:0px 0px 15px #b3338d;
+}
+
+
+
 
 /*      NAVBAR       */
 .nav-custom-bg{
-    background-color:#A3430F;
+    background-color:#662467;
 }
 
 
@@ -58,8 +72,6 @@ h1{
     width:100%;
     position:fixed;
 }
-
-
 
 
 
@@ -80,53 +92,80 @@ h1{
     
 }
 
-.content p{
-    color:white;
-}
 
 .content h1{
-    font-size:9em;
+    font-size:9rem;
 }
 
 
 .carousel-and-download{
     width:100%;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
+
 #picture-carousel{
-    width:25em;
+    width:25rem;
     justify-self: flex-start;
 }
 
 
-
-
 .img-source{
+    font-size:1rem;
     width:100%;
     background: rgba(0,0,0, .4);
     color:#d3d3d3;
     bottom:0;
-    padding: .2em;
+    padding: .2rem;
     position:fixed;
 }
 
 
 .img-source a{
-    color:#A3430F;
-    padding: 0em .3em;
+    color:#b3338d;
+    padding: 0em .3rem;
 }
 
+
 .img-source a:hover{
-    color:#A3430F;
+    color:#b3338d;
     text-decoration: none;
 }
 
+
+/* RESUME BUTTON */
+
+a .custom-btn{
+    width:300px;
+    height:75px;
+    color:#fff;
+}
+
+
+a:hover .custom-btn{
+    text-decoration: none;
+    color:#b3338d;
+}
+
+
 .custom-btn{
-    font-size:10em;
-    width:10em;
-    height:3em;
+    height:3rem;
+    width:10rem;
     padding: 20% 25%;
-    margin: 3%;
+    margin: 20%;
+    box-shadow: 0px 0px 15px #b3338d;
+}
+
+
+/*         ABOUT PAGE CONTENT           */
+.about-content{
+    width:100%;
+    height:100%;
+}
+
+.about-text{
+    height:500px;
+    width:500px;
+    overflow-y:auto;
 }

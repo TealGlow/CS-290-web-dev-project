@@ -102,5 +102,21 @@ create_nav_items(navbar_element);
 this.document.getElementById("nav-element").appendChild(navbar_element);
 
 
+/* CODE TO HANDLE FILE DOWNLOAD
+
+TODO: SWITCH?
+
+*/
+document.addEventListener("DOMContentLoaded", resumeButton);
+
+function resumeButton(){
+    document.getElementById("resume-form").addEventListener("click", function(event){
+        window.location = "resources/Alyssa Comstock Web Dev Resume 2020 PDF.pdf?download=1"
+        event.preventDefault()
+    });
+}
+
+
+
 
 
