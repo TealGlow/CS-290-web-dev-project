@@ -137,11 +137,12 @@ body ::-webkit-scrollbar-thumb{
 /* RESUME BUTTON */
 
 .custom-btn{
-    height:5rem;
-    width:20rem;
+    height:4rem;
+    width:17rem;
     padding: 20% 25%;
     margin: 20%;
     box-shadow: 0px 0px 15px #b3338d;
+    font-size:7rem;
 }
 
 
