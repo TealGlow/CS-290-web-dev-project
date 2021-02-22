@@ -107,14 +107,22 @@ this.document.getElementById("nav-element").appendChild(navbar_element);
 TODO: SWITCH?
 
 */
-document.addEventListener("DOMContentLoaded", resumeButton);
-
-function resumeButton(){
-    document.getElementById("resume-form").addEventListener("click", function(event){
-        window.location = "resources/Alyssa Comstock Web Dev Resume 2020 PDF.pdf?download=1"
-        event.preventDefault()
-    });
-}
 
 
+
+
+document.getElementById("form-control").addEventListener("click", function(event){
+   var element_to_unhide = document.getElementById("contact-form");
+    if(element_to_unhide.classList.contains("hidden")){
+        // if already hidden, unhide
+        element_to_unhide.classList.remove("hidden");
+        element_to_unhide.classList.add("form-content");
+    }
+    else{
+        element_to_unhide.classList.add("hidden");
+        element_to_unhide.classList.remove("form-content");
+    }
+    
+   
+});
 
