@@ -112,7 +112,8 @@ TODO: SWITCH?
 
 
 document.getElementById("form-control").addEventListener("click", function(event){
-   var element_to_unhide = document.getElementById("contact-form");
+    event.preventDefault();
+    var element_to_unhide = document.getElementById("contact-form");
     if(element_to_unhide.classList.contains("hidden")){
         // if already hidden, unhide
         element_to_unhide.classList.remove("hidden");

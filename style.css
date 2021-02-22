@@ -209,10 +209,6 @@ body ::-webkit-scrollbar-thumb{
     background: rgba(0,0,0, .6);
 }
 
-#form-control{
-    color:white;
-}
-
 /* SKILLS PAGE*/
 .skills-background{
     background-image: url('resources/color-4159771.jpg');
