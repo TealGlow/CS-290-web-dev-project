@@ -5,7 +5,6 @@ body, html{
     margin:0;
     padding:0;
     font-family: 'Open Sans', sans-serif;
-    
 }
 
 
@@ -57,6 +56,9 @@ body ::-webkit-scrollbar-thumb{
 
 
 /* reusable classes */
+.hidden{
+    display:none;
+}
 .center{
     /* centers the current object according to the parent size */
     display: flex;
@@ -67,33 +69,47 @@ body ::-webkit-scrollbar-thumb{
 
 .page-title{
     /* styling for the h2 elements on each page */
-    margin: 1%;
+    margin-top:50px;
+    padding:2%;
     color: white;
-    font-size:9rem;
+    font-size:7rem;
     font-family: 'Anton', sans-serif;
     text-shadow:0px 0px 15px #b3338d;
 }
 
+.text-outline{
+    text-shadow:1px 1px 0px #b3338d,
+            -1px -1px 0px #b3338d,
+            -1px 1px 0px #b3338d,
+            1px -1px 0px #b3338d,
+            0px 0px 15px #b3338d;
+}
+
+.subtitle{
+    font-size:1.3rem;
+}
 
 .img-source{
     /* Footer element what contains the image souce*/
     font-size:1rem;
     width:100%;
-    background: rgba(0,0,0, .4);
+    background: rgba(0,0,0, .5);
     color: #d3d3d3;
+    position:absolute;
     bottom:0;
-    padding: .2rem;
-    position:fixed;
+    z-index:0;
 }
 
 
 .content{
-    height:100%;
-    width:100%;
+    padding:3%;
+    text-align:center;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     background-size:cover;
     flex-direction: column;
+    overflow: hidden;
 }
 
 
@@ -105,8 +121,10 @@ body ::-webkit-scrollbar-thumb{
 
 
 #nav-element{
-    width:100%;
+    z-index: 2;
+    margin-bottom:4%;
     position:fixed;
+    width:100%;
 }
 
 
@@ -116,13 +134,13 @@ body ::-webkit-scrollbar-thumb{
 
 
 .home-background{
-    background-image: url('resources/line-1174788.jpg');
+    background-image: url('resources/art-5488298.jpg');
 }
 
 
 .carousel-and-download{
-    width:100%;
     flex-direction: column;
+    z-index: 0;
 }
 
 
@@ -131,7 +149,12 @@ body ::-webkit-scrollbar-thumb{
 }
 
 
-
+.container-fluid{
+    height:100%;
+    padding:0;
+    margin:0;
+    overflow-y: auto;
+}
 
 
 /* RESUME BUTTON */
@@ -161,3 +184,27 @@ body ::-webkit-scrollbar-thumb{
     background: rgba(0,0,0, .6);
 }
 
+
+/* CONTACT PAGE */
+
+.contact-background{
+    background-image: url('resources/color-4160196.jpg');
+}
+
+
+.button-container{
+    width:100%;   
+}
+
+.form-content{
+    margin:1rem;
+    color:white;
+    padding:2rem;
+    background: rgba(0,0,0, .6);
+}
+
+
+/* SKILLS PAGE*/
+.skills-background{
+    background-image: url('resources/color-4159771.jpg');
+}

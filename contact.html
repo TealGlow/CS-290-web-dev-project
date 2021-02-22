@@ -7,6 +7,10 @@
         <!-- style sheet-->
         <link rel="stylesheet" href="style.css">
         
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+        
         <!-- Boostrap 4.5.2 CDN -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
@@ -16,15 +20,22 @@
         <div id="nav-element"></div>
         <!-- end of nav bar-->    
         
-        <section class="content center">
+        
+        <div class="container-fluid content contact-background">
+        <section class="center content">
             
             
-            <h1 class="page-title">Get in touch!</h1>
+            <h1 class="page-title text-outline">Get in touch!</h1>
             
+            <div class="button-container">
+                <a class="btn btn-dark btn-lg" href="https://github.com/TealGlow">GitHub</a>
+                <a class="btn btn-dark btn-lg" href="https://my.indeed.com/p/alyssac-t5sbffm">Indeed</a>
+                <a class="btn btn-dark btn-lg" href="mailto:alyssacomstock95@gmail.com">Mail</a>
+            </div>
             
-            <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post" class="center">
+            <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post" class="center form-content">
                 <fieldset>
-                    <legend><h2>send me a short message?</h2></legend>
+                    <legend><p class="text-outline subtitle">send me a short message?</p></legend>
                     <div class="form-group">
                         <legend>Name:</legend>
                         <input name="name_input" class="form-control" type="text" placeholder="Enter Name">
@@ -44,7 +55,18 @@
                     <button type="submit" class="btn btn-dark">Submit!</button>
                 </fieldset>
             </form>
+            
+            
+            <!-- footer contains the image source for the background.  Background image says no attribute is needed.-->
+            <footer class="img-source center">
+                Image by <a href="https://pixabay.com/users/stux-12364/">stux</a> from <a href="https://pixabay.com/photos/color-acrylic-paint-art-painting-4160196/">Pixabay</a>
+            </footer>
+            
+            
         </section>
+            
+            
+        </div>
         
         
         
