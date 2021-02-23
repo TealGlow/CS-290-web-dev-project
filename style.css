@@ -237,8 +237,22 @@ body ::-webkit-scrollbar-thumb{
     background-image: url('resources/color-4159771.jpg');
 }
 
-@media screen and (max-height:850px){
-    
+.skills-list{
+    text-align: left;
+}
+
+.skills-text{
+    color:white;
+    padding:2rem;
+    width:500px;
+    overflow-y:auto;
+    background: rgba(0,0,0, .6);
+}
+
+
+
+@media screen and (max-height:800px){
+    /* Creating some page responsiveness.  Some things change when the height gets below 850px */
     .content{
         padding:1%;
         justify-content: flex-start;
@@ -253,4 +267,9 @@ body ::-webkit-scrollbar-thumb{
     .subtitle{
         font-size:1rem;
     }
+    #picture-carousel{
+        width:17rem;
+    }
 }
+
+
