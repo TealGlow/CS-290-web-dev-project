@@ -242,6 +242,8 @@ body ::-webkit-scrollbar-thumb{
 }
 
 .skills-text{
+    text-align: left;
+    max-height: 500px;
     color:white;
     padding:2rem;
     width:500px;
