@@ -81,6 +81,36 @@ body ::-webkit-scrollbar-thumb{
     bottom:0;
     z-index:0;
 }
+.img-source a{
+    color:#b3338d;
+    text-decoration: none;
+}
+
+
+.img-source a:link{
+    margin:5px;
+    color:#b3338d;
+    text-decoration: none;
+}
+
+
+.img-source a:visisted{
+    color:#b3338d;
+    text-decoration: none;
+}
+
+
+.img-source a:hover{
+    color:#b3338d;
+    text-decoration: none;
+}
+
+
+.img-source a:active{
+    color:#b3338d;
+    text-decoration: none;
+}
+
 
 
 .content{
