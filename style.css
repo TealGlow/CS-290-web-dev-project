@@ -8,6 +8,7 @@ body, html{
 }
 
 
+
 /*   HTML ELEMENTS  */
 
 
@@ -16,9 +17,11 @@ body p{
 }
 
 
+
 body ::-webkit-scrollbar{
     width:10px;
 }
+
 
 
 body ::-webkit-scrollbar-thumb{
@@ -26,20 +29,35 @@ body ::-webkit-scrollbar-thumb{
 }
 
 
+
 /* reusable classes */
+
+.button-width-custom{
+    width:150px;
+    margin-bottom:10px;
+}
+
+
+
 .hidden{
     height:0;
     width:0;
     display: none;
 }
 
+
+
 .show{
    display:block; 
 }
 
+
+
 .title-holder{
     width:100%;
 }
+
+
 
 .center{
     /* centers the current object according to the parent size */
@@ -47,6 +65,7 @@ body ::-webkit-scrollbar-thumb{
     align-items: center;
     justify-content: center;
 }
+
 
 
 .page-title{
@@ -59,6 +78,8 @@ body ::-webkit-scrollbar-thumb{
     z-index:1;
 }
 
+
+
 .text-outline{
     text-shadow:1px 1px 0px #b3338d,
             -1px -1px 0px #b3338d,
@@ -67,9 +88,13 @@ body ::-webkit-scrollbar-thumb{
             0px 0px 15px #b3338d;
 }
 
+
+
 .subtitle{
     font-size:1.3rem;
 }
+
+
 
 .img-source{
     /* Footer element what contains the image souce*/
@@ -81,10 +106,14 @@ body ::-webkit-scrollbar-thumb{
     bottom:0;
     z-index:0;
 }
+
+
+
 .img-source a{
     color:#b3338d;
     text-decoration: none;
 }
+
 
 
 .img-source a:link{
@@ -94,16 +123,19 @@ body ::-webkit-scrollbar-thumb{
 }
 
 
+
 .img-source a:visisted{
     color:#b3338d;
     text-decoration: none;
 }
 
 
+
 .img-source a:hover{
     color:#b3338d;
     text-decoration: none;
 }
+
 
 
 .img-source a:active{
@@ -124,9 +156,13 @@ body ::-webkit-scrollbar-thumb{
     overflow-y:auto;
 }
 
+
+
 .column{
     flex-direction: column;
 }
+
+
 
 .start-just{
     padding:3%;
@@ -134,10 +170,12 @@ body ::-webkit-scrollbar-thumb{
 }
 
 
+
 /*      NAVBAR       */
 .nav-custom-bg{
     background-color:#662467;
 }
+
 
 .navbar-holder{
     width:100%;
@@ -154,6 +192,7 @@ body ::-webkit-scrollbar-thumb{
 }
 
 
+
 .carousel-and-download{
     z-index: 0;
     padding:0;
@@ -161,9 +200,11 @@ body ::-webkit-scrollbar-thumb{
 }
 
 
+
 #picture-carousel{
     width:20rem;
 }
+
 
 
 .container-fluid{
@@ -172,6 +213,7 @@ body ::-webkit-scrollbar-thumb{
     margin:0;
     overflow-y: auto;
 }
+
 
 
 /* RESUME BUTTON */
@@ -185,15 +227,20 @@ body ::-webkit-scrollbar-thumb{
     font-size:7rem;
 }
 
+
+
 .custom-btn{
         font-size:5rem;
     }
+
+
 
 
 /*         ABOUT PAGE CONTENT           */
 .about-background{
     background-image: url('resources/texture-976040.jpg');
 }
+
 
 
 .about-text{
@@ -204,6 +251,7 @@ body ::-webkit-scrollbar-thumb{
     overflow-y:auto;
     background: rgba(0,0,0, .6);
 }
+
 
 
 /* CONTACT PAGE */
@@ -219,9 +267,12 @@ body ::-webkit-scrollbar-thumb{
     width:500px;
 }
 
+
+
 .button-container a{
     color:white
 }
+
 
 
 .form-content{
@@ -231,6 +282,7 @@ body ::-webkit-scrollbar-thumb{
 }
 
 
+
 .form-group{
     padding:0;
     margin:0;
@@ -238,16 +290,22 @@ body ::-webkit-scrollbar-thumb{
 }
 
 
+
 /* SKILLS PAGE*/
 .skills-background{
     background-image: url('resources/color-4159771.jpg');
 }
 
+
+
 .skills-list{
     text-align: left;
 }
 
+
+
 .skills-text{
+    margin-top:10px;
     text-align: left;
     max-height: 500px;
     color:white;
