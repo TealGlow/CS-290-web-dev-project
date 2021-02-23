@@ -234,4 +234,8 @@ body ::-webkit-scrollbar-thumb{
         padding-top:10px;
         justify-content: flex-start;
     } 
+    .custom-btn{
+        height:3rem;
+        width:10rem;
+    }
 }
