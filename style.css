@@ -57,11 +57,13 @@ body ::-webkit-scrollbar-thumb{
 
 /* reusable classes */
 .hidden{
-    display:none;
+    height:0;
+    width:0;
+    display: none;
 }
 
 .show{
-    display:block;
+   display:block; 
 }
 
 .title-holder{
@@ -201,18 +203,35 @@ body ::-webkit-scrollbar-thumb{
 }
 
 
+
 .button-container{
     width:500px;
 }
 
+
 .form-content{
-    margin:1rem;
     color:white;
     padding:2rem;
     background: rgba(0,0,0, .6);
 }
 
+
+.form-group{
+    padding:0;
+    margin:0;
+    font-size:1rem;
+}
+
+
 /* SKILLS PAGE*/
 .skills-background{
     background-image: url('resources/color-4159771.jpg');
+}
+
+@media screen and (max-height:850px){
+    
+    .content{
+        padding-top:10px;
+        justify-content: flex-start;
+    } 
 }

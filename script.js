@@ -10,10 +10,12 @@ if(this.document.getElementById("form-control")){
             // if already hidden, unhide
             element_to_unhide.classList.remove("hidden");
             element_to_unhide.classList.add("form-content");
+            document.getElementById("contact-title").classList.add("hidden");
         }
         else{
             element_to_unhide.classList.add("hidden");
             element_to_unhide.classList.remove("form-content");
+            document.getElementById("contact-title").classList.remove("hidden");
         }
     
    

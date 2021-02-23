@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Alyssa Comstock - Contact</title>
+        <meta name="viewport" content="width=device-width">
         
         <!-- style sheet-->
         <link rel="stylesheet" href="style.css">
@@ -47,7 +48,7 @@
         
         
         <div class="content center column contact-background">
-            <h1 class="page-title text-outline">Get in touch!</h1>
+            <h1 class="page-title text-outline" id="contact-title">Get in touch!</h1>
             
             
             <div class="button-container">
@@ -60,18 +61,18 @@
                 <fieldset>
                     <legend><p class="text-outline subtitle">send me a short message?</p></legend>
                     <div class="form-group">
-                        <legend>Name:</legend>
+                        <label>Name:</label>
                         <input name="name_input" class="form-control" type="text" placeholder="Enter Name">
                     </div>
                     <br />
                     <div class="form-group">
-                        <legend>Contact:</legend>
+                        <label>Contact:</label>
                         <input name="email_input" class="form-control" type="email" placeholder="Enter Email">
                     </div>
                     <br />
                     <div class="form-group">
-                        <legend>Comment:</legend>
-                        <textarea  rows="4" cols="50" class="form-control" name="comment_input" placeholder="Enter Comment"></textarea>
+                        <label>Comment:</label>
+                        <textarea  rows="2" cols="50" class="form-control" name="comment_input" placeholder="Enter Comment"></textarea>
                         
                     </div>
                     <br/>
@@ -81,7 +82,7 @@
             
             </div>
             <!-- footer contains the image source for the background.  Background image says no attribute is needed.-->
-            <footer class="img-source center">
+            <footer class="img-source center static-bottom">
                 Image by <a href="https://pixabay.com/users/stux-12364/">stux</a> from <a href="https://pixabay.com/photos/color-acrylic-paint-art-painting-4160196/">Pixabay</a>
             </footer>
             
