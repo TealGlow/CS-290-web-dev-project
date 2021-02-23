@@ -147,10 +147,9 @@ body ::-webkit-scrollbar-thumb{
 
 
 .carousel-and-download{
-    width:100%;
-    height:75%;
     z-index: 0;
     padding:0;
+    margin:0;
 }
 
 

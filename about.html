@@ -16,23 +16,54 @@
         
     </head>
     <body>
-        <!-- Boostrap Nav bar-->
-        <div id="nav-element"></div>
-        <!-- end of nav bar-->  
-        <div class="container-fluid about-background content center">
+        
+        <!-- Boostrap navbar-->
+        <div class="navbar-holder"> <!-- Holder for the navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark nav-custom-bg static-top">
+                <!-- Navbar toggler will select the item with the id navbar-inner-content and toggle it being collapsed or not when the scrren
+                gets small enough-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-inner-content">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-inner-content">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/about.html">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/skills.html">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav> <!-- End of navbar-->
+        </div> <!-- end of navbar container-->
         
         
-            <section class="about-background content center">
+        <div class="content center column about-background">
+        
+            <div class="title-holder">
                 <h1 class="page-title text-outline">About</h1>
+            </div>
+            
+            <div class="center column">
                 <div class="about-text">
                 Hello! I'm Alyssa Comstock!  I was born in Ashland, Oregon, but I currently live in Beaverton, Oregon.  My interests include videogames, mathematics, and programming.  I've been using HTML, and CSS since I first started using the internet when I was a young child, and have been interested in web development ever since. Most of my web development knowledge is self taught, as I love learning, and I have picked up a lot over the years.
                     
                 <br/><br/>
                 I got my first Bachelors of Science from Portland State University in Mathemtics back in 2019 where my main focus with my degree was statistics.  Currently, I am persuing a post baccalaureate in computer science from Oregon State University, and I expect to graduate in 2023!
                 </div>
-            </section>
-            <footer class="img-source center">Image by <a href="https://pixabay.com/users/astoko-1475917/">AStoKo</a> from <a href="https://pixabay.com/illustrations/texture-background-abstract-976040/">Pixabay</a></footer>
-        </div>
+            </div>
+        </div>  
+
+        <footer class="img-source center">Image by <a href="https://pixabay.com/users/astoko-1475917/">AStoKo</a> from <a href="https://pixabay.com/illustrations/texture-background-abstract-976040/">Pixabay</a></footer>
         
         
         <!-- More bootstrap 4.5.2 CDN javascript pack -->

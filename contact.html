@@ -16,18 +16,39 @@
         
     </head>
     <body>
-        <!-- Boostrap Nav bar-->
-        <div id="nav-element"></div>
-        <!-- end of nav bar-->    
+        <!-- Boostrap navbar-->
+        <div class="navbar-holder"> <!-- Holder for the navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark nav-custom-bg static-top">
+                <!-- Navbar toggler will select the item with the id navbar-inner-content and toggle it being collapsed or not when the scrren
+                gets small enough-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-inner-content">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-inner-content">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/skills.html">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/contact.html">Contact <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav> <!-- End of navbar-->
+        </div> <!-- end of navbar container-->
         
         
-        <div class="container-fluid content center contact-background">
-            
-            
-        <section class="center content">
-            
-            
+        <div class="content center column contact-background">
             <h1 class="page-title text-outline">Get in touch!</h1>
+            
             
             <div class="button-container">
                 <a class="btn btn-dark btn-lg" href="https://github.com/TealGlow">GitHub</a>
@@ -54,21 +75,18 @@
                         
                     </div>
                     <br/>
-                    <button type="submit" class="btn btn-dark">Submit!</button>
+                    <button type="submit" class="btn btn-light">Submit!</button>
                 </fieldset>
             </form>
             
-            
+            </div>
             <!-- footer contains the image source for the background.  Background image says no attribute is needed.-->
             <footer class="img-source center">
                 Image by <a href="https://pixabay.com/users/stux-12364/">stux</a> from <a href="https://pixabay.com/photos/color-acrylic-paint-art-painting-4160196/">Pixabay</a>
             </footer>
             
             
-        </section>
-            
-            
-        </div>
+        
         
         
         

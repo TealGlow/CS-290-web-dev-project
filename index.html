@@ -19,13 +19,15 @@
     </head>
     <body>
          <!-- Boostrap navbar-->
-            <div class="navbar-holder">
+            <div class="navbar-holder"> <!-- Holder for the navbar -->
                 <nav class="navbar navbar-expand-lg navbar-dark nav-custom-bg static-top">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- Navbar toggler will select the item with the id navbar-inner-content and toggle it being collapsed or not when the scrren
+                    gets small enough-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-inner-content">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse" id="navbar-inner-content">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
                                 <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
@@ -47,7 +49,6 @@
         
         <div class="content column center home-background">
             
-           
         
             <div class="title-holder">
                 <h1 class="page-title text-outline">Alyssa Comstock</h1>
@@ -105,8 +106,8 @@
                     <a href="resources/Alyssa%20Comstock%20Web%20Dev%20Resume%202020%20PDF.pdf" download class="center"><button type="button submit" class="btn btn-lg btn-outline-light custom-btn">Resume</button></a>
                 </div>
         </div>
-        <!-- footer contains the image source for the background.  Background image says no attribute is needed.-->
-            <footer class="img-source center static-bottom">
+            <!-- footer contains the image source for the background.  Background image says no attribute is needed.-->
+            <footer class="img-source center fixed-bottom">
                 Image by <a href="https://pixabay.com/users/deeezy-15467098/">Peter Olexa</a> from <a href="https://pixabay.com/photos/art-artistic-wallpaper-paint-5488298/">Pixabay</a>
             </footer>
     
