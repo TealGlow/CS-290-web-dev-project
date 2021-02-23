@@ -9,35 +9,6 @@ body, html{
 
 
 /*   HTML ELEMENTS  */
-body a{
-    color:#b3338d;
-    text-decoration: none;
-}
-
-
-body a:link{
-    margin:5px;
-    color:#b3338d;
-    text-decoration: none;
-}
-
-
-body a:visisted{
-    color:#b3338d;
-    text-decoration: none;
-}
-
-
-body a:hover{
-    color:#b3338d;
-    text-decoration: none;
-}
-
-
-body a:active{
-    color:#b3338d;
-    text-decoration: none;
-}
 
 
 body p{
