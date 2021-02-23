@@ -23,7 +23,7 @@ this.window.addEventListener("DOMContentLoaded", function(){
 function decorate_nav(){
     // function that creates the navbar element and applies all the bootstrap classes to it.
 
-    var main_classes=["navbar","navbar-expand-lg","navbar-dark", "nav-custom-bg"];
+    var main_classes=["navbar", "navbar-expand-lg", "navbar-dark", "nav-custom-bg", "navbar-default", "navbar-static-top"];
     var navbar_element = this.document.createElement("navbar");
     for(var i=0; i<main_classes.length ; i++){
         navbar_element.classList.add(main_classes[i]);

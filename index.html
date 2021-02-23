@@ -18,18 +18,45 @@
         
     </head>
     <body>
+         <!-- Boostrap navbar-->
+            <div class="navbar-holder">
+                <nav class="navbar navbar-expand-lg navbar-dark nav-custom-bg static-top">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/skills.html">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact.html">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </nav> <!-- End of navbar-->
+            </div> <!-- end of navbar container-->
         
-        <span id="nav-element"></span>
+        <div class="content column center home-background">
+            
+           
         
-        <div class="container-fluid content home-background">
-            
-            
-            
-            <section class="content center">
+            <div class="title-holder">
                 <h1 class="page-title text-outline">Alyssa Comstock</h1>
                 <p class="text-outline subtitle">Portland, Oregon based programmer.</p>
-                
-                <div class="carousel-and-download center"> 
+            </div>
+            
+            
+            
+                <div class="carousel-and-download column center"> 
                 <!-- my own container div that holds the carousel and resume download button so that I can center them using flex -->
                     
                 <!-- Bootstrap Carousel -->
@@ -77,14 +104,13 @@
                     <!-- Button with download link to resume -->
                     <a href="resources/Alyssa%20Comstock%20Web%20Dev%20Resume%202020%20PDF.pdf" download class="center"><button type="button submit" class="btn btn-lg btn-outline-light custom-btn">Resume</button></a>
                 </div>
-            
-            <!-- footer contains the image source for the background.  Background image says no attribute is needed.-->
-            <footer class="img-source center fixed-bottom">
+        </div>
+        <!-- footer contains the image source for the background.  Background image says no attribute is needed.-->
+            <footer class="img-source center static-bottom">
                 Image by <a href="https://pixabay.com/users/deeezy-15467098/">Peter Olexa</a> from <a href="https://pixabay.com/photos/art-artistic-wallpaper-paint-5488298/">Pixabay</a>
             </footer>
-           
-            </section>
-        </div>
+    
+    
         
 
         

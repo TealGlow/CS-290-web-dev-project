@@ -3,7 +3,7 @@ body, html{
     height:100%;
     width:100%;
     margin:0;
-    padding:0;
+    overflow:hidden;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -64,6 +64,10 @@ body ::-webkit-scrollbar-thumb{
     display:block;
 }
 
+.title-holder{
+    width:100%;
+}
+
 .center{
     /* centers the current object according to the parent size */
     display: flex;
@@ -74,12 +78,12 @@ body ::-webkit-scrollbar-thumb{
 
 .page-title{
     /* styling for the h2 elements on each page */
-    padding:2%;
     color: white;
     width:100%;
     font-size:5rem;
     font-family: 'Anton', sans-serif;
     text-shadow:0px 0px 15px #b3338d;
+    z-index:1;
 }
 
 .text-outline{
@@ -107,16 +111,19 @@ body ::-webkit-scrollbar-thumb{
 
 
 .content{
-    padding:3%;
+    width:100%;
+    height:100%;
     text-align:center;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size:cover;
-    flex-direction: column;
-    overflow: hidden;
+    overflow-y:auto;
 }
 
+.column{
+    flex-direction: column;
+}
 
 
 /*      NAVBAR       */
@@ -124,14 +131,10 @@ body ::-webkit-scrollbar-thumb{
     background-color:#662467;
 }
 
-
-#nav-element{
-    z-index: 2;
-    margin-bottom:4%;
-    position:fixed;
+.navbar-holder{
     width:100%;
+    z-index: 2;
 }
-
 
 
 
@@ -144,8 +147,10 @@ body ::-webkit-scrollbar-thumb{
 
 
 .carousel-and-download{
-    flex-direction: column;
+    width:100%;
+    height:75%;
     z-index: 0;
+    padding:0;
 }
 
 
@@ -156,7 +161,7 @@ body ::-webkit-scrollbar-thumb{
 
 .container-fluid{
     height:100%;
-    padding:0;
+    padding:10%;
     margin:0;
     overflow-y: auto;
 }
