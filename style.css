@@ -128,7 +128,7 @@ body ::-webkit-scrollbar-thumb{
 }
 
 .start-just{
-    padding-top:10%;
+    padding:3%;
     justify-content: flex-start;
 }
 
@@ -240,11 +240,17 @@ body ::-webkit-scrollbar-thumb{
 @media screen and (max-height:850px){
     
     .content{
-        padding:5%;
+        padding:1%;
         justify-content: flex-start;
     } 
     .custom-btn{
         height:3rem;
         width:10rem;
+    }
+    .page-title{
+        font-size:4rem;
+    }
+    .subtitle{
+        font-size:1rem;
     }
 }
