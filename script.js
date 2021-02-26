@@ -24,7 +24,10 @@ if(this.document.getElementById("form-control")){
 
 
 /*  SKILLS PAGE BUTTONS  */
+//since there are multiple tabs, we get an array and we need to loop through that
+// array to add the event listener on each
 var skillsButtons = this.document.getElementsByClassName("skills-control");
+
 if(skillsButtons){
     for(var i=0; i < skillsButtons.length; i++ ){
         skillsButtons[i].addEventListener("click", function(event){
@@ -38,6 +41,7 @@ if(skillsButtons){
                     document.getElementById(tabToHide).classList.remove("show");
                 }
             }
+            // show the targeted tab
             document.getElementById(targetedTab).classList.add("show");
             document.getElementById(targetedTab).classList.remove("hidden");
             

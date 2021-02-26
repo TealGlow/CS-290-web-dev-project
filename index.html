@@ -23,13 +23,20 @@
                 <nav class="navbar navbar-expand-lg navbar-dark nav-custom-bg static-top">
                     <!-- Navbar toggler will select the item with the id navbar-inner-content and toggle it being collapsed or not when the scrren
                     gets small enough-->
+                    
+                    <!-- toggle button targets the item with the id #navbar-inner-content and will toggle it, so this is the
+                    div around the nav items.
+                    -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-inner-content">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbar-inner-content">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
+                        <ul class="navbar-nav mr-auto"> 
+                            <!-- Boostrap navbar-nav class allows for drop down nav in and full-height navigation
+                            mr-auto = will push all the items to the right
+                            -->
+                            <li class="nav-item active"> 
                                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
@@ -120,8 +127,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         
-        <!-- Font awesome gives me the icon assets (I used it for the navbar icon!) -->
-        <script src="https://kit.fontawesome.com/2f9553e183.js" crossorigin="anonymous"></script>
         
         <!-- my script-->
         <script src="script.js"></script>
