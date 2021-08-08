@@ -2,4 +2,4 @@
  
 Page coded with HTML, CSS, and Javascript for CS290.
 
-Can be viewed <a href="https://tealglow.github.io/web-290-dev-project/">here</a>
+Can be viewed <a href="https://tealglow.github.io/CS-290-web-dev-project/">here</a>
